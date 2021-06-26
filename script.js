@@ -27,7 +27,7 @@ function newQuotes() {
   const quote = apiQuotes[Math.floor(Math.random() * apiQuotes.length)];
   // check author is empty
   if (!quote.author) {
-    authorText.textContent = "Unknown";
+    authorText.textContent = "UnKnown";
   } else {
     authorText.textContent = quote.author;
   }
